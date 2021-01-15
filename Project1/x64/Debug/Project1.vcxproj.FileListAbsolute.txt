@@ -1,0 +1,5 @@
+C:\Users\User\Desktop\practice_cpp\practice\Project1\x64\Debug\Project1.vcxprojAssemblyReference.cache
+C:\Users\User\Desktop\practice_cpp\practice\Project1\x64\Debug\Project1.MyForm.resources
+C:\Users\User\Desktop\practice_cpp\practice\Project1\x64\Debug\Project1.vcxproj.GenerateResource.cache
+C:\Users\User\Desktop\practice_cpp\practice\Project1\x64\Debug\Project1.exe
+C:\Users\User\Desktop\practice_cpp\practice\Project1\x64\Debug\Project1.pdb
