@@ -50,7 +50,7 @@ namespace Project1 {
 		/// <summary>
 		/// Обязательная переменная конструктора.
 		/// </summary>
-		System::ComponentModel::Container ^components;
+		System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
@@ -200,11 +200,11 @@ namespace Project1 {
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e);
 	private: System::Void label2_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
-private: System::Void textBox2_TextChanged(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void label4_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e);
-private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e);
-};
+	private: System::Void textBox2_TextChanged(System::Object^ sender, System::EventArgs^ e) {
+	}
+	private: System::Void label4_Click(System::Object^ sender, System::EventArgs^ e) {
+	}
+	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e);
+	private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e);
+	};
 }

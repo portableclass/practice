@@ -1,13 +1,14 @@
-#include "MyForm.h"
+п»ї#include "MyForm.h"
 #include <Windows.h>
 #include <iostream>
 #include <ctime>
-#include <time.h>
-#include <string>
+#include  "../Project1/functions.cpp"
+
 using namespace std;
 using namespace System;
 using  namespace Microsoft::Win32;
-using namespace Project1; // Название проекта
+using namespace Project1; // РќР°Р·РІР°РЅРёРµ РїСЂРѕРµРєС‚Р°
+
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
@@ -19,81 +20,8 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 {
 	return y == 0 ? throw overflow_error("Error") : (x / y);
 }*/
-
-/// <summary>
-/// Эта функция генерирует массив.
-/// </summary>
-/// <param name="arr">Массив</param>
-/// <param name="size">Размерность массива</param>
-void generateArray(int* arr, int size)
+int save()
 {
-	for (int i = 0; i < size; i++)
-	{
-		arr[i] = 1 + rand() % 1000;
-	}
-}
-
-/// <summary>
-/// Эта функция клонирует сгенерированный массив 'а' в массив 'b'.
-/// </summary>
-/// <param name="a">Сгенерированный массив</param>
-/// <param name="b">Клоннированный массив</param>
-/// <param name="size">Размерность массива</param>
-void cloneArray(int* a, int* b, int size)
-{
-	for (int i = 0; i < size; i++)
-	{
-		b[i] = a[i];
-	}
-}
-
-/// <summary>
-/// Данная функция сортирует сгенерированный массив от наименьшего к наибольшему элементу.
-/// </summary>
-/// <param name="arr">Массив</param>
-/// <param name="size">Размерность массива</param>
-void sortingMax(int* arr, int size)
-{
-	// Временная переменная для обмена элементов местами.
-	int temporary;
-
-	// Сортировка от наименьшего к наибольшему.
-	for (int i = 0; i < size - 1; i++)
-	{
-		for (int j = 0; j < size - i - 1; j++)
-		{
-			if (arr[j] > arr[j + 1])
-			{
-				// Меняем элементы местами.
-				temporary = arr[j];
-				arr[j] = arr[j + 1];
-				arr[j + 1] = temporary;
-			}
-		}
-	}
-}
-
-/// <summary>
-/// Данная функция сортирует клоннированный массив от наибольшего к наименьшему элементу.
-/// </summary>
-/// <param name="arr">Массив</param>
-/// <param name="size">Размерность массива</param>
-void sortingMin(int* arr, int size)
-{
-	// Сортировка от наибольшего к наименьшему.
-	for (int i = 0; i < size - 1; i++)
-	{
-		for (int j = 0; j < size - i - 1; j++)
-		{
-			if (arr[j] < arr[j + 1])
-			{
-				// Меняем элементы местами.
-				swap(arr[j], arr[j + 1]);
-			}
-		}
-	}
-}
-int save() {
 	RegistryKey^ rk;
 	rk = Registry::CurrentUser->OpenSubKey("Software", true);
 	if (!rk)
@@ -169,7 +97,6 @@ System::Void MyForm::button1_Click(System::Object^ sender, System::EventArgs^ e)
 	int* b = new int[size];
 
 	textBox3->Text = System::Convert::ToString(size);
-
 	generateArray(a, size);
 	cloneArray(a, b, size);
 	sortingMax(a, size);
@@ -185,5 +112,5 @@ System::Void MyForm::button2_Click(System::Object^ sender, System::EventArgs^ e)
 	save();
 }
 System::Void MyForm::button3_Click(System::Object^ sender, System::EventArgs^ e) {
-
+	download();
 }
