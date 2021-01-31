@@ -1,0 +1,2 @@
+C:\Users\YASH\source\repos\practice\practice\Debug\practice.exe
+C:\Users\YASH\source\repos\practice\practice\Debug\practice.pdb

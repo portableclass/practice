@@ -1,0 +1,7 @@
+﻿  practice.cpp
+C:\Users\YASH\source\repos\practice\practice\practice.cpp(92,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 18 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  practice.vcxproj -> C:\Users\YASH\source\repos\practice\practice\x64\Release\practice.exe

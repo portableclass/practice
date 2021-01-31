@@ -1,0 +1,3 @@
+﻿  practice.cpp
+C:\Users\YASH\source\repos\practice\practice\practice.cpp(92,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  practice.vcxproj -> C:\Users\YASH\source\repos\practice\practice\Debug\practice.exe
