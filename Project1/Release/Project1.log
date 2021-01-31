@@ -1,0 +1,15 @@
+﻿  functions.cpp
+  MyForm.cpp
+C:\Users\YASH\source\repos\practice\Project1\MyForm.cpp(90,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Создание кода...
+  functions.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+MyForm.obj : error LNK2005: "void __cdecl Project1::generateArray(int *,int)" (?generateArray@Project1@@$$FYAXPAHH@Z) уже определен в functions.obj
+MyForm.obj : error LNK2005: "void __cdecl Project1::generateArray(int *,int)" (?generateArray@Project1@@YAXPAHH@Z) уже определен в functions.obj
+MyForm.obj : error LNK2005: "void __cdecl Project1::cloneArray(int *,int *,int)" (?cloneArray@Project1@@$$FYAXPAH0H@Z) уже определен в functions.obj
+MyForm.obj : error LNK2005: "void __cdecl Project1::cloneArray(int *,int *,int)" (?cloneArray@Project1@@YAXPAH0H@Z) уже определен в functions.obj
+MyForm.obj : error LNK2005: "void __cdecl Project1::sortingMax(int *,int)" (?sortingMax@Project1@@$$FYAXPAHH@Z) уже определен в functions.obj
+MyForm.obj : error LNK2005: "void __cdecl Project1::sortingMax(int *,int)" (?sortingMax@Project1@@YAXPAHH@Z) уже определен в functions.obj
+MyForm.obj : error LNK2005: "void __cdecl Project1::sortingMin(int *,int)" (?sortingMin@Project1@@$$FYAXPAHH@Z) уже определен в functions.obj
+MyForm.obj : error LNK2005: "void __cdecl Project1::sortingMin(int *,int)" (?sortingMin@Project1@@YAXPAHH@Z) уже определен в functions.obj
+C:\Users\YASH\source\repos\practice\Project1\Release\Project1.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более

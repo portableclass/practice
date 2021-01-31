@@ -1,13 +1,13 @@
-п»ї#include "MyForm.h"
+#include "MyForm.h"
+#include "../Project1/functions.cpp"
 #include <Windows.h>
 #include <iostream>
 #include <ctime>
-#include  "../Project1/functions.cpp"
 
 using namespace std;
 using namespace System;
-using  namespace Microsoft::Win32;
-using namespace Project1; // РќР°Р·РІР°РЅРёРµ РїСЂРѕРµРєС‚Р°
+using namespace Microsoft::Win32;
+using namespace Project1; // Название проекта
 
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	Application::EnableVisualStyles();
@@ -20,6 +20,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 {
 	return y == 0 ? throw overflow_error("Error") : (x / y);
 }*/
+
 int save()
 {
 	RegistryKey^ rk;
@@ -54,6 +55,7 @@ int save()
 	Console::WriteLine("'CURRENTUSER/Software/NewRegKey'\n");
 	return 0;
 }
+
 int download()
 {
 	cli::array<String^>^ key = Registry::CurrentUser->GetSubKeyNames();
@@ -83,6 +85,7 @@ int download()
 
 	return 0;
 }
+
 System::Void MyForm::button1_Click(System::Object^ sender, System::EventArgs^ e) {
 	srand(time(NULL));
 
@@ -108,9 +111,11 @@ System::Void MyForm::button1_Click(System::Object^ sender, System::EventArgs^ e)
 	delete[] a;
 	delete[] b;
 }
+
 System::Void MyForm::button2_Click(System::Object^ sender, System::EventArgs^ e) {
 	save();
 }
+
 System::Void MyForm::button3_Click(System::Object^ sender, System::EventArgs^ e) {
 	download();
 }

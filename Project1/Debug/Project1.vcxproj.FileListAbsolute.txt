@@ -1,10 +1,5 @@
-C:\Users\YASH\source\repos\Project1\Debug\Project1.vcxprojAssemblyReference.cache
-C:\Users\YASH\source\repos\Project1\Debug\Project1.MyForm.resources
-C:\Users\YASH\source\repos\Project1\Debug\Project1.vcxproj.GenerateResource.cache
-C:\Users\YASH\source\repos\Project1\Debug\Project1.exe
-C:\Users\YASH\source\repos\Project1\Debug\Project1.pdb
-C:\Users\User\Desktop\practice_cpp\practice\Project1\Debug\Project1.vcxprojAssemblyReference.cache
-C:\Users\User\Desktop\practice_cpp\practice\Project1\Debug\Project1.MyForm.resources
-C:\Users\User\Desktop\practice_cpp\practice\Project1\Debug\Project1.vcxproj.GenerateResource.cache
-C:\Users\User\Desktop\practice_cpp\practice\Project1\Debug\Project1.exe
-C:\Users\User\Desktop\practice_cpp\practice\Project1\Debug\Project1.pdb
+C:\Users\YASH\source\repos\practice\Project1\Debug\Project1.vcxprojAssemblyReference.cache
+C:\Users\YASH\source\repos\practice\Project1\Debug\Project1.MyForm.resources
+C:\Users\YASH\source\repos\practice\Project1\Debug\Project1.vcxproj.GenerateResource.cache
+C:\Users\YASH\source\repos\practice\Project1\Debug\Project1.exe
+C:\Users\YASH\source\repos\practice\Project1\Debug\Project1.pdb

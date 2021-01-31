@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{07776F82-1CD5-49CE-8A67-1B38FF8AC646}</ProjectGuid>
+    <ProjectGuid>{E35204D8-0553-48BB-98C5-2C8D1DF479A7}</ProjectGuid>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <Keyword>ManagedCProj</Keyword>
     <RootNamespace>Project1</RootNamespace>

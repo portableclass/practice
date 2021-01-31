@@ -74,21 +74,21 @@ namespace Project1 {
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Location = System::Drawing::Point(44, 9);
-			this->label1->MaximumSize = System::Drawing::Size(200, 70);
+			this->label1->Location = System::Drawing::Point(48, 9);
+			this->label1->MaximumSize = System::Drawing::Size(200, 100);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(189, 70);
+			this->label1->Size = System::Drawing::Size(189, 78);
 			this->label1->TabIndex = 0;
 			this->label1->Text = L"Эта программа генерирует массив, затем клонирует его. Сгенерированный массив буде"
-				L"т от\r\nсортирован по возрастанию. Клонированный массив будет отсортирован по убыв"
-				L"анию.";
+				L"т отсортирован по возрастанию. Клонированный массив будет отсортирован по убыван"
+				L"ию.";
 			this->label1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			this->label1->Click += gcnew System::EventHandler(this, &MyForm::label1_Click);
 			// 
 			// button1
 			// 
 			this->button1->BackColor = System::Drawing::SystemColors::HighlightText;
-			this->button1->Location = System::Drawing::Point(109, 217);
+			this->button1->Location = System::Drawing::Point(102, 217);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(75, 23);
 			this->button1->TabIndex = 1;
@@ -98,7 +98,7 @@ namespace Project1 {
 			// 
 			// textBox1
 			// 
-			this->textBox1->Location = System::Drawing::Point(161, 129);
+			this->textBox1->Location = System::Drawing::Point(161, 137);
 			this->textBox1->Name = L"textBox1";
 			this->textBox1->Size = System::Drawing::Size(100, 20);
 			this->textBox1->TabIndex = 2;
@@ -107,7 +107,7 @@ namespace Project1 {
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(18, 136);
+			this->label2->Location = System::Drawing::Point(18, 140);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(132, 13);
 			this->label2->TabIndex = 3;
@@ -117,7 +117,7 @@ namespace Project1 {
 			// label3
 			// 
 			this->label3->AutoSize = true;
-			this->label3->Location = System::Drawing::Point(20, 175);
+			this->label3->Location = System::Drawing::Point(18, 175);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(126, 13);
 			this->label3->TabIndex = 4;
@@ -134,7 +134,7 @@ namespace Project1 {
 			// label4
 			// 
 			this->label4->AutoSize = true;
-			this->label4->Location = System::Drawing::Point(18, 99);
+			this->label4->Location = System::Drawing::Point(18, 110);
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(128, 13);
 			this->label4->TabIndex = 6;
@@ -143,7 +143,7 @@ namespace Project1 {
 			// 
 			// textBox3
 			// 
-			this->textBox3->Location = System::Drawing::Point(161, 92);
+			this->textBox3->Location = System::Drawing::Point(161, 107);
 			this->textBox3->Name = L"textBox3";
 			this->textBox3->Size = System::Drawing::Size(100, 20);
 			this->textBox3->TabIndex = 7;
@@ -175,7 +175,7 @@ namespace Project1 {
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::SystemColors::Info;
-			this->ClientSize = System::Drawing::Size(286, 353);
+			this->ClientSize = System::Drawing::Size(286, 341);
 			this->Controls->Add(this->button3);
 			this->Controls->Add(this->button2);
 			this->Controls->Add(this->textBox3);
@@ -195,15 +195,15 @@ namespace Project1 {
 #pragma endregion
 	private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
-	private: System::Void textBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {
-	}
-	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e);
 	private: System::Void label2_Click(System::Object^ sender, System::EventArgs^ e) {
-	}
-	private: System::Void textBox2_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 	}
 	private: System::Void label4_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
+	private: System::Void textBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {
+	}
+	private: System::Void textBox2_TextChanged(System::Object^ sender, System::EventArgs^ e) {
+	}
+	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e);
 	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e);
 	private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e);
 	};
